@@ -13,7 +13,7 @@ tiene_dinero_input = input("Tienes dinero para un helado ? (Si/No) : ").upper()
 senor_helados_input = input("Esta el señor de los helados ? (Si/No) : ").upper()
 esta_tu_tia_input = input("¿Estás con tu tía ? (Si/No) : ".upper()
 
-tiene_dinero = tiene_dinero_input == "S"
+tiene_dinero = tiene_dinero_input == "SI"
 esta_tu_tia = esta_tu_tia_input == "SI"
 puedes_permitirtelo = tiene_dinero == "SI" or esta_tu_tia_input == "SI"
 senor_helados = senor_helados_input == "SI"
